@@ -8,6 +8,10 @@ of the nodes can be calculated.
 Usage:
 python bootstrap_network.py <list_of_nodes.txt> <number of edges>
 
+Required (positional) arguments:
+1. A text file containing a list of nodes (see example below)
+2. The number of edges to draw randomly between the nodes in the text file
+
 Example input file:
 node1
 node2
