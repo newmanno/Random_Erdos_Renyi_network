@@ -9,14 +9,5 @@ Usage:
 python bootstrap_network.py <list_of_nodes.txt> <number of edges>
 
 Required (positional) arguments:
-1. A text file containing a list of nodes (see example below)
+1. A text file containing just a list of nodes, all in a single column
 2. The number of edges to draw randomly between the nodes in the text file
-
-Example input file:
-node1
-node2
-node3
-<blank line>
-
-***NOTE: The blank line at the end of the file is crucial or else it will strip the last character from the last node in the node list.
-    
