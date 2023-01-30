@@ -2,26 +2,7 @@
 """
 Created on Thu Apr 22 00:57:38 2021
 
-@author: Nolan Newman <newmanno@oregonstate.edu>
-
-Info:
-This script is used to bootstrap a network being analyzed. It will take as input a file of 
-nodes in a network and the number of edges to randomly assign to the nodes, then assign those
-edges to create a network. The results of this file need to be put into 
-BiBC_degree_calculator.py. 
-
-Usage:
-python bootstrap_network.py <list_of_nodes.txt> <number of edges>
-
-Example input file:
-node1
-node2
-node3
-<blank line>
-
-***NOTE: The blank line at the end of the file is crucial or else it will strip the last character from the last node in the node list.
-    
-    
+@author: Nolan Newman <newmanno@oregonstate.edu>    
 """
 
 import csv
